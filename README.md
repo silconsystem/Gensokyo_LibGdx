@@ -10,6 +10,9 @@ this also enables the player to upgrade weapon types and so it will become possi
 equip 'Super-Shortwave' and 'Final Spark' and so on...
 There is several shield types available for the player to postpone death a bit aswell.
 
+I chose the tyrian source as a base since its easy to add new objects and playermodels, weapontypes and shields
+when the engine is finished.
+
 the games concept is identical with the amiga/DOS game tyrian, you'll find a link to a free version with the aforementioned
 svn repository.
 
@@ -25,6 +28,8 @@ still to be implemented:
 -shot n shield feature
 -enemy attack/bullet patterns
 -particle effects
+-loader for new playermodels from an online database
+-loader for new levels from an online database
 -much more...
 
 in the repo is a .mm file wich is a freeplane mindmap, wich will contain the entire game plan, as of now its a raw
