@@ -1,0 +1,110 @@
+
+textures.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+remilia-scarlet
+  rotate: false
+  xy: 1, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0 
+remilia-scarlet
+  rotate: false
+  xy: 1, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 1
+remilia-scarlet
+  rotate: false
+  xy: 1, 101
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 2
+marisa-kirisame
+  rotate: false
+  xy: 1, 51
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 0
+marisa-kirisame
+  rotate: false
+  xy: 35, 51
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+marisa-kirisame
+  rotate: false
+  xy: 1, 1
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2
+reimu-hakurei
+  rotate: false
+  xy: 35, 1
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 0
+reimu-hakurei
+  rotate: false
+  xy: 51, 201
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+reimu-hakurei
+  rotate: false
+  xy: 51, 151
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2
+sakuya-izayoi
+  rotate: false
+  xy: 51, 101
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 0
+sakuya-izayoi
+  rotate: false
+  xy: 69, 51
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+sakuya-izayoi
+  rotate: false
+  xy: 69, 1
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2
+youmu-konpaku
+  rotate: false
+  xy: 85, 201
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 0
+youmu-konpaku
+  rotate: false
+  xy: 85, 151
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+youmu-konpaku
+  rotate: false
+  xy: 85, 101
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2

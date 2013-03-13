@@ -1,0 +1,110 @@
+
+textures.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+marisa-kirisame
+  rotate: false
+  xy: 1, 68
+  size: 150, 55
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+reimu-hakurei
+  rotate: false
+  xy: 1, 11
+  size: 150, 55
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+remilia-scarlet
+  rotate: false
+  xy: 153, 68
+  size: 150, 55
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+sakukya-izayoi
+  rotate: false
+  xy: 153, 11
+  size: 150, 55
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+youmu-konpaku
+  rotate: false
+  xy: 305, 68
+  size: 150, 55
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+homing-amulet
+  rotate: false
+  xy: 305, 1
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+kitchen-knives
+  rotate: false
+  xy: 348, 1
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+slash-shield
+  rotate: false
+  xy: 391, 1
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+sphere-shield
+  rotate: false
+  xy: 457, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+square-shield
+  rotate: false
+  xy: 500, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+super-shortwave
+  rotate: false
+  xy: 543, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+sword-slash
+  rotate: false
+  xy: 586, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+vampire-fangs
+  rotate: false
+  xy: 629, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+wing-shield
+  rotate: false
+  xy: 672, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+yinyang-shield
+  rotate: false
+  xy: 715, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1

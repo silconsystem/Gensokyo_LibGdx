@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gensokyo</string>
+    <string name="info">2013 LucidVision Multiverse</string>
+    <string name="menu_settings">Settings</string>
+    <string name="author">R. van Ardenne</string>
+    <string name="gameDescription">simple object collection game with a twist</string>
+
+</resources>

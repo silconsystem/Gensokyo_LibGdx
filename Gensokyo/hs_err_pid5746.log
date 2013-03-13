@@ -1,0 +1,235 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=5746, tid=3078237040
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_24-b24
+# Java VM: OpenJDK Client VM (20.0-b12 mixed mode linux-x86 )
+# Derivative: IcedTea6 1.11.5
+# Distribution: Ubuntu 11.10, package 6b24-1.11.5-0ubuntu1~11.10.1
+# If you would like to submit a bug report, please include
+# instructions how to reproduce the bug and visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-6/
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x088a5400):  JavaThread "Unknown thread" [_thread_in_vm, id=5753, stack(0xb7752000,0xb77a3000)]
+
+Stack: [0xb7752000,0xb77a3000]
+[error occurred during error reporting (printing stack bounds), id 0xb]
+
+
+[error occurred during error reporting (printing native stack), id 0xb]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x088a5400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5753, stack(0xb7752000,0xb77a3000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+00110000-0028c000 r-xp 00000000 08:01 4329513    /lib/i386-linux-gnu/libc-2.13.so
+0028c000-0028e000 r--p 0017c000 08:01 4329513    /lib/i386-linux-gnu/libc-2.13.so
+0028e000-0028f000 rw-p 0017e000 08:01 4329513    /lib/i386-linux-gnu/libc-2.13.so
+0028f000-00292000 rw-p 00000000 00:00 0 
+00292000-002ba000 r-xp 00000000 08:01 4329531    /lib/i386-linux-gnu/libm-2.13.so
+002ba000-002bb000 r--p 00028000 08:01 4329531    /lib/i386-linux-gnu/libm-2.13.so
+002bb000-002bc000 rw-p 00029000 08:01 4329531    /lib/i386-linux-gnu/libm-2.13.so
+002bc000-002d8000 r-xp 00000000 08:01 4326330    /lib/i386-linux-gnu/libgcc_s.so.1
+002d8000-002d9000 r--p 0001b000 08:01 4326330    /lib/i386-linux-gnu/libgcc_s.so.1
+002d9000-002da000 rw-p 0001c000 08:01 4326330    /lib/i386-linux-gnu/libgcc_s.so.1
+002da000-002e5000 r-xp 00000000 08:01 265376     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libverify.so
+002e5000-002e6000 ---p 0000b000 08:01 265376     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libverify.so
+002e6000-002e7000 r--p 0000b000 08:01 265376     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libverify.so
+002e7000-002e8000 rw-p 0000c000 08:01 265376     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libverify.so
+002e8000-0030e000 r-xp 00000000 08:01 265391     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjava.so
+0030e000-0030f000 r--p 00025000 08:01 265391     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjava.so
+0030f000-00311000 rw-p 00026000 08:01 265391     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjava.so
+00311000-0034f000 r-xp 00000000 08:01 265395     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjdwp.so
+0034f000-00350000 r--p 0003d000 08:01 265395     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjdwp.so
+00350000-00351000 rw-p 0003e000 08:01 265395     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libjdwp.so
+00351000-00354000 r-xp 00000000 08:01 265377     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libnpt.so
+00354000-00355000 r--p 00002000 08:01 265377     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libnpt.so
+00355000-00356000 rw-p 00003000 08:01 265377     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libnpt.so
+00356000-0036b000 r-xp 00000000 08:01 4329518    /lib/i386-linux-gnu/libnsl-2.13.so
+0036b000-0036c000 r--p 00015000 08:01 4329518    /lib/i386-linux-gnu/libnsl-2.13.so
+0036c000-0036d000 rw-p 00016000 08:01 4329518    /lib/i386-linux-gnu/libnsl-2.13.so
+0036d000-0036f000 rw-p 00000000 00:00 0 
+0036f000-00379000 r-xp 00000000 08:01 4329521    /lib/i386-linux-gnu/libnss_nis-2.13.so
+00379000-0037a000 r--p 00009000 08:01 4329521    /lib/i386-linux-gnu/libnss_nis-2.13.so
+0037a000-0037b000 rw-p 0000a000 08:01 4329521    /lib/i386-linux-gnu/libnss_nis-2.13.so
+0037b000-00382000 r-xp 00000000 08:01 265368     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libzip.so
+00382000-00383000 r--p 00006000 08:01 265368     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libzip.so
+00383000-00384000 rw-p 00007000 08:01 265368     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/libzip.so
+00452000-00455000 r-xp 00000000 08:01 4329529    /lib/i386-linux-gnu/libdl-2.13.so
+00455000-00456000 r--p 00002000 08:01 4329529    /lib/i386-linux-gnu/libdl-2.13.so
+00456000-00457000 rw-p 00003000 08:01 4329529    /lib/i386-linux-gnu/libdl-2.13.so
+00503000-005e1000 r-xp 00000000 08:01 10117      /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+005e1000-005e2000 ---p 000de000 08:01 10117      /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+005e2000-005e6000 r--p 000de000 08:01 10117      /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+005e6000-005e7000 rw-p 000e2000 08:01 10117      /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+005e7000-005ee000 rw-p 00000000 00:00 0 
+00a3f000-00a5d000 r-xp 00000000 08:01 4329532    /lib/i386-linux-gnu/ld-2.13.so
+00a5d000-00a5e000 r--p 0001d000 08:01 4329532    /lib/i386-linux-gnu/ld-2.13.so
+00a5e000-00a5f000 rw-p 0001e000 08:01 4329532    /lib/i386-linux-gnu/ld-2.13.so
+00a72000-00a79000 r-xp 00000000 08:01 4329515    /lib/i386-linux-gnu/librt-2.13.so
+00a79000-00a7a000 r--p 00006000 08:01 4329515    /lib/i386-linux-gnu/librt-2.13.so
+00a7a000-00a7b000 rw-p 00007000 08:01 4329515    /lib/i386-linux-gnu/librt-2.13.so
+00ac3000-00ad6000 r-xp 00000000 08:01 4326392    /lib/i386-linux-gnu/libz.so.1.2.3.4
+00ad6000-00ad7000 r--p 00012000 08:01 4326392    /lib/i386-linux-gnu/libz.so.1.2.3.4
+00ad7000-00ad8000 rw-p 00013000 08:01 4326392    /lib/i386-linux-gnu/libz.so.1.2.3.4
+00b41000-00b58000 r-xp 00000000 08:01 4329527    /lib/i386-linux-gnu/libpthread-2.13.so
+00b58000-00b59000 r--p 00016000 08:01 4329527    /lib/i386-linux-gnu/libpthread-2.13.so
+00b59000-00b5a000 rw-p 00017000 08:01 4329527    /lib/i386-linux-gnu/libpthread-2.13.so
+00b5a000-00b5c000 rw-p 00000000 00:00 0 
+00b5f000-00b67000 r-xp 00000000 08:01 4329522    /lib/i386-linux-gnu/libnss_compat-2.13.so
+00b67000-00b68000 r--p 00007000 08:01 4329522    /lib/i386-linux-gnu/libnss_compat-2.13.so
+00b68000-00b69000 rw-p 00008000 08:01 4329522    /lib/i386-linux-gnu/libnss_compat-2.13.so
+00c08000-00c0c000 r-xp 00000000 08:01 265387     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/jli/libjli.so
+00c0c000-00c0d000 r--p 00003000 08:01 265387     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/jli/libjli.so
+00c0d000-00c0e000 rw-p 00004000 08:01 265387     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/jli/libjli.so
+00cdc000-00ce7000 r-xp 00000000 08:01 4329534    /lib/i386-linux-gnu/libnss_files-2.13.so
+00ce7000-00ce8000 r--p 0000a000 08:01 4329534    /lib/i386-linux-gnu/libnss_files-2.13.so
+00ce8000-00ce9000 rw-p 0000b000 08:01 4329534    /lib/i386-linux-gnu/libnss_files-2.13.so
+00d15000-00d16000 r-xp 00000000 00:00 0          [vdso]
+00d16000-0122a000 r-xp 00000000 08:01 265399     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/client/libjvm.so
+0122a000-0122b000 ---p 00514000 08:01 265399     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/client/libjvm.so
+0122b000-01242000 r--p 00514000 08:01 265399     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/client/libjvm.so
+01242000-0124f000 rw-p 0052b000 08:01 265399     /usr/lib/jvm/java-6-openjdk/jre/lib/i386/client/libjvm.so
+0124f000-01667000 rw-p 00000000 00:00 0 
+08048000-08051000 r-xp 00000000 08:01 265330     /usr/lib/jvm/java-6-openjdk/jre/bin/java
+08051000-08052000 r--p 00008000 08:01 265330     /usr/lib/jvm/java-6-openjdk/jre/bin/java
+08052000-08053000 rw-p 00009000 08:01 265330     /usr/lib/jvm/java-6-openjdk/jre/bin/java
+0889d000-0890c000 rw-p 00000000 00:00 0          [heap]
+91c26000-91ceb000 r--s 0115c000 08:01 923390     /home/silconsys/android-sdks/platforms/android-17/android.jar
+91ceb000-91cf2000 rw-p 00000000 00:00 0 
+91cf2000-91d0c000 rw-p 00000000 00:00 0 
+91d0c000-91d12000 rw-p 00000000 00:00 0 
+91d12000-91db4000 rw-p 00000000 00:00 0 
+91db4000-91db7000 rw-p 00000000 00:00 0 
+91db7000-91e07000 rw-p 00000000 00:00 0 
+91e07000-91e0d000 rw-p 00000000 00:00 0 
+91e0d000-91eaf000 rw-p 00000000 00:00 0 
+91eaf000-91eb5000 rw-p 00000000 00:00 0 
+91eb5000-91ecf000 rw-p 00000000 00:00 0 
+91ecf000-92400000 rw-p 00000000 00:00 0 
+92400000-9c620000 rw-p 00000000 00:00 0 
+9c620000-9d0a0000 rw-p 00000000 00:00 0 
+9d0a0000-b14d0000 rw-p 00000000 00:00 0 
+b14d0000-b20d0000 rw-p 00000000 00:00 0 
+b20d0000-b54d0000 rw-p 00000000 00:00 0 
+b54d2000-b54d3000 rw-p 00000000 00:00 0 
+b54d3000-b5552000 rw-p 00000000 00:00 0 
+b5552000-b5582000 rwxp 00000000 00:00 0 
+b5582000-b7552000 rw-p 00000000 00:00 0 
+b7552000-b7752000 r--p 00000000 08:01 12106      /usr/lib/locale/locale-archive
+b7752000-b7755000 ---p 00000000 00:00 0 
+b7755000-b77a6000 rw-p 00000000 00:00 0 
+b77b2000-b77ba000 rw-s 00000000 08:01 1190193    /tmp/hsperfdata_silconsys/5746
+b77ba000-b77bb000 r--p 002c5000 08:01 12106      /usr/lib/locale/locale-archive
+b77bb000-b77bc000 rw-p 00000000 00:00 0 
+b77bc000-b77bd000 r--p 00000000 00:00 0 
+b77bd000-b77bf000 rw-p 00000000 00:00 0 
+bff36000-bff57000 rw-p 00000000 00:00 0          [stack]
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:32905 -Dfile.encoding=UTF-8 -Xbootclasspath:/home/silconsys/android-sdks/platforms/android-17/android.jar 
+java_command: com.badlogic.gdx.utils.GdxBuild
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/silconsys/android-sdks/tools:/home/silconsys/android-sdks/platform-tools:/usr/local/bin
+LD_LIBRARY_PATH=/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/lib/jvm/java-6-openjdk/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x3e4a40], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x3e4a40], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x301750], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x301750], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x301750], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x301750], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x3015e0], sa_mask[0]=0x00000004, sa_flags=0x10000004
+SIGHUP: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGINT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGTERM: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGQUIT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+
+
+---------------  S Y S T E M  ---------------
+
+OS:Ubuntu 11.10 (oneiric)
+uname:Linux 3.0.0-12-generic #20-Ubuntu SMP Fri Oct 7 14:50:42 UTC 2011 i686
+libc:glibc 2.13 NPTL 2.13 
+rlimit: STACK 8192k, CORE 0k, NPROC 7860, NOFILE 4096, AS infinity
+load average:1.28 1.15 0.70
+
+/proc/meminfo:
+MemTotal:        1025912 kB
+MemFree:           82164 kB
+Buffers:           15396 kB
+Cached:           227780 kB
+SwapCached:        16720 kB
+Active:           419200 kB
+Inactive:         440776 kB
+Active(anon):     306056 kB
+Inactive(anon):   332136 kB
+Active(file):     113144 kB
+Inactive(file):   108640 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:        139208 kB
+HighFree:           1852 kB
+LowTotal:         886704 kB
+LowFree:           80312 kB
+SwapTotal:       1046524 kB
+SwapFree:         962612 kB
+Dirty:                68 kB
+Writeback:             0 kB
+AnonPages:        605728 kB
+Mapped:           118116 kB
+Shmem:             21344 kB
+Slab:              34960 kB
+SReclaimable:      18468 kB
+SUnreclaim:        16492 kB
+KernelStack:        3192 kB
+PageTables:         9840 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1559480 kB
+Committed_AS:    2035844 kB
+VmallocTotal:     122880 kB
+VmallocUsed:       25604 kB
+VmallocChunk:      91724 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       4096 kB
+DirectMap4k:       65528 kB
+DirectMap4M:      843776 kB
+
+
+CPU:total 1 (1 cores per cpu, 1 threads per core) family 15 model 6 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3
+
+Memory: 4k page, physical 1025912k(82164k free), swap 1046524k(962612k free)
+
+vm_info: OpenJDK Client VM (20.0-b12) for linux-x86 JRE (1.6.0_24-b24), built on Oct 24 2012 16:31:52 by "buildd" with gcc 4.6.1
+
+time: Sun Mar 10 19:13:56 2013
+elapsed time: 0 seconds
+
