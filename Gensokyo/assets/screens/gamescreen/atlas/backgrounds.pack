@@ -1,0 +1,43 @@
+
+backgrounds.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+atlas/textures
+  rotate: false
+  xy: 1, 1
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+
+backgrounds2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg1
+  rotate: false
+  xy: 1, 485
+  size: 802, 482
+  orig: 802, 482
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: false
+  xy: 1, 1
+  size: 802, 482
+  orig: 802, 482
+  offset: 0, 0
+  index: -1
+
+backgrounds3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg3
+  rotate: false
+  xy: 1, 1
+  size: 802, 482
+  orig: 802, 482
+  offset: 0, 0
+  index: -1

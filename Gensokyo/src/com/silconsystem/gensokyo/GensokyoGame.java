@@ -14,6 +14,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.FPSLogger;
+import com.badlogic.gdx.graphics.Texture;
 
 public class GensokyoGame extends Game
 {
@@ -117,6 +118,7 @@ public class GensokyoGame extends Game
 	{
 		super.render();		
 		if (DEV) fpslogger.log();
+		Texture.setEnforcePotImages(false);
 	}
 	
 	@Override
