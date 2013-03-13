@@ -1,0 +1,9 @@
+sprite credits:
+	Saigyou R.
+	ZUN / Team Shanghai Alice
+
+code credits:
+	Gustavo Steigert
+
+music credits:
+	PlayOnLoop.com
