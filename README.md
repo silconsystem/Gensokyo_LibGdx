@@ -32,5 +32,12 @@ still to be implemented:
 -loader for new levels from an online database
 -much more...
 
-in the repo is a .mm file wich is a freeplane mindmap, wich will contain the entire game plan, as of now its a raw
-package tree, will be complete asap!
+in the repo is a .mm file wich is a freeplane mindmap, wich will contain the entire game concept and will be updated as the project grows.
+
+Freeplane is a flowchart application for Linux, Mac and Windows platform.
+Its a small application that 
+If you don't use freeplane, the download link is here:
+http://sourceforge.net/projects/freeplane/
+
+The website and complete documentation you can find here:
+http://freeplane.sourceforge.net/wiki/index.php/Main_Page
