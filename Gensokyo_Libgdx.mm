@@ -188,10 +188,9 @@
       <font size="2">I'm thinking to split the espisodes also in two parts so I end up with 6 stages and a final stage.&#160;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<hook NAME="MapStyle" max_node_width="600"/>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<hook NAME="MapStyle" max_node_width="600"/>
 <edge STYLE="bezier"/>
 <icon BUILTIN="info"/>
 <node POSITION="right" ID="ID_715184394" CREATED="1363175727036" MODIFIED="1364045969223" COLOR="#0033ff">
@@ -208,7 +207,7 @@
 </html></richcontent>
 <font SIZE="18"/>
 <edge STYLE="sharp_bezier" WIDTH="8"/>
-<node ID="ID_1888006722" CREATED="1363175739931" MODIFIED="1364045969227" COLOR="#00b439">
+<node ID="ID_1888006722" CREATED="1363175739931" MODIFIED="1374934211629" COLOR="#00b439">
 <richcontent TYPE="NODE">
 <html>
   <head>
@@ -219,7 +218,8 @@
       <font size="4" color="#660066"><b>com.silconsystem.gensokyo</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font SIZE="16"/>
 <edge STYLE="bezier" WIDTH="thin"/>
 <node ID="ID_960719564" CREATED="1363176037386" MODIFIED="1364045969228" COLOR="#990000">
@@ -270,8 +270,7 @@
       <font size="2">initialize new GensokyoGame</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1940267429" CREATED="1363176061655" MODIFIED="1364045969229" COLOR="#990000">
@@ -367,8 +366,7 @@
       <font size="2">levelManager</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -451,8 +449,7 @@
       <font size="2">write(Json)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_788695347" CREATED="1363176146526" MODIFIED="1364045969239" COLOR="#990000">
@@ -494,8 +491,7 @@
       <font size="2">getPriceAsText()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1170264378" CREATED="1363176158573" MODIFIED="1364045969240" COLOR="#990000">
@@ -560,8 +556,7 @@
       <font size="2">toString()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font SIZE="10"/>
 </node>
 </node>
@@ -628,8 +623,7 @@
       <font size="2">write(Json)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font SIZE="10"/>
 </node>
 </node>
@@ -674,8 +668,7 @@
       <font size="2">getCredits()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_384247147" CREATED="1363176191649" MODIFIED="1364045969248" COLOR="#990000">
@@ -740,8 +733,7 @@
       <font size="2">toString()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1101248419" CREATED="1363176200529" MODIFIED="1364045969250" COLOR="#990000">
@@ -791,8 +783,7 @@
       <font size="2">getDamage()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_71248113" CREATED="1364052675928" MODIFIED="1364052726213">
@@ -806,8 +797,7 @@
       <b><font color="#0000ff" size="4">SpellType.java</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_541559473" CREATED="1364052733881" MODIFIED="1364052907128">
 <richcontent TYPE="NODE">
 <html>
@@ -857,12 +847,11 @@
       <font size="2">toString()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node ID="ID_70186131" CREATED="1363175792165" MODIFIED="1364045969253" COLOR="#00b439">
+<node ID="ID_70186131" CREATED="1363175792165" MODIFIED="1374934234916" COLOR="#00b439">
 <richcontent TYPE="NODE">
 <html>
   <head>
@@ -870,10 +859,11 @@
   </head>
   <body>
     <p>
-      <font size="3" color="#660066"><b>com.silconsystem.gensokyo.actors.scene2d</b></font>
+      <font size="4" color="#660066"><b>com.silconsystem.gensokyo.actors.scene2d</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font SIZE="16"/>
 <edge STYLE="bezier" WIDTH="thin"/>
 <node ID="ID_1783539345" CREATED="1363176214527" MODIFIED="1364045969256" COLOR="#990000">
@@ -921,8 +911,7 @@
       <font size="2">bankPlayer(float)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1430330156" CREATED="1363176227093" MODIFIED="1364045969257" COLOR="#990000">
@@ -950,8 +939,7 @@
       <b><font color="#0000ff" size="4">ParallaxLayer2d.java</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_619470133" CREATED="1364054013158" MODIFIED="1364054124005">
 <richcontent TYPE="NODE">
 <html>
@@ -969,8 +957,7 @@
       <font size="2">ParallaxLayer2d(TextureRegion, parallaxRatio, startPosition, padding)&#160; // constructor</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1329865937" CREATED="1364054127275" MODIFIED="1364054164515">
@@ -984,8 +971,7 @@
       <b><font color="#0000ff" size="4">ParallaxBackground2d.java</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_1900703526" CREATED="1364054173173" MODIFIED="1364054265679">
 <richcontent TYPE="NODE">
 <html>
@@ -1006,8 +992,7 @@
       <font size="2">render(float)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1093,8 +1078,7 @@
       <font size="2">dispose()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1947233616" CREATED="1363176253083" MODIFIED="1364045969265" COLOR="#990000">
@@ -1174,8 +1158,7 @@
       <font size="2">dispose()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1897641073" CREATED="1363176269529" MODIFIED="1364045969266" COLOR="#990000">
@@ -1214,8 +1197,7 @@
       <font size="2">findLevelById(int)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1529164285" CREATED="1363176280576" MODIFIED="1364045969267" COLOR="#990000">
@@ -1269,8 +1251,7 @@
       <font size="2">setVolume()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1125447305" CREATED="1363176294212" MODIFIED="1364045969267" COLOR="#990000">
@@ -1312,8 +1293,7 @@
       <font size="2">persist()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1570,8 +1550,7 @@
       <b><font color="#006666" size="4">Screen Logic</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_989664903" CREATED="1364046996089" MODIFIED="1364047027162">
 <richcontent TYPE="NODE">
 <html>
@@ -1583,8 +1562,7 @@
       <b>I. SplashScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_383648736" CREATED="1364047236551" MODIFIED="1364048303882">
 <richcontent TYPE="NODE">
 <html>
@@ -1611,8 +1589,7 @@
       <font size="2">- set screen to MenuScreen</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#999999"/>
 </node>
 </node>
@@ -1627,8 +1604,7 @@
       <b>II. MenuScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_1551773669" CREATED="1364047267259" MODIFIED="1364048296484">
 <richcontent TYPE="NODE">
 <html>
@@ -1640,8 +1616,7 @@
       <font size="2">- display text message<br size="2"/>- display buttons:<br size="2"/>&#160;&#160;- start<br size="2"/>&#160;&#160;- options<br size="2"/>&#160;&#160;- exit/highscores<br size="2"/><br size="2"/>- start button pressed event:<br size="2"/>&#160;&#160;- set screen to GameScreen<br size="2"/><br size="2"/>- options button pressed event:<br size="2"/>&#160;&#160;-&#160;set screen to GameScreen<br size="2"/><br size="2"/>- exit/highscores button pressed:<br size="2"/>&#160;&#160;- set screen to HighScoresScreen</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_1435730337" CREATED="1364047049955" MODIFIED="1364047437317">
@@ -1655,8 +1630,7 @@
       <b>III. StartGameScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_568582416" CREATED="1364047324678" MODIFIED="1364048282728">
 <richcontent TYPE="NODE">
 <html>
@@ -1707,8 +1681,7 @@
       <font size="2">- display 'Back to main menu' button</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#999999"/>
 </node>
 </node>
@@ -1723,8 +1696,7 @@
       <b>IV. LevelScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_767520058" CREATED="1364047892184" MODIFIED="1364048274656">
 <richcontent TYPE="NODE">
 <html>
@@ -1778,8 +1750,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node ID="ID_791571080" CREATED="1364047179383" MODIFIED="1364047209620">
@@ -1793,8 +1764,7 @@
       <b>VI. HighScoreScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_241118676" CREATED="1364047470027" MODIFIED="1364047502325">
 <richcontent TYPE="NODE">
@@ -1807,8 +1777,7 @@
       <b>VII. SettingScreen</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
