@@ -25,7 +25,12 @@ public class Profile implements Serializable
 	
 	public Profile()
 	{
-		credits = 1000;
+		if (GensokyoGame.DEV)
+		{
+			credits = 1000000;
+		} else {
+			credits = 10000;
+		}
 		highScores = new HashMap<Integer, Integer>();
 		playerCharacter = new PlayerCharacter();
 		playerCharacter.install(PlayerModel.MARISA_KIRISAME);

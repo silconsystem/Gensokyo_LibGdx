@@ -1,0 +1,299 @@
+
+bullets.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+marisa-kirisame-shot2
+  rotate: false
+  xy: 1, 15
+  size: 58, 16
+  orig: 58, 16
+  offset: 0, 0
+  index: -1
+reimu-hakurei-shot1
+  rotate: false
+  xy: 1, 1
+  size: 62, 12
+  orig: 62, 12
+  offset: 0, 0
+  index: -1
+marisa-kirisame-shot0
+  rotate: false
+  xy: 61, 17
+  size: 59, 14
+  orig: 59, 14
+  offset: 0, 0
+  index: -1
+marisa-kirisame-shot1
+  rotate: false
+  xy: 65, 1
+  size: 59, 14
+  orig: 59, 14
+  offset: 0, 0
+  index: -1
+reimu-hakurei-shot0
+  rotate: false
+  xy: 122, 19
+  size: 45, 12
+  orig: 45, 12
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-aqua
+  rotate: false
+  xy: 126, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-blue
+  rotate: false
+  xy: 144, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-green
+  rotate: false
+  xy: 162, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+reimu-hakurei-shot2
+  rotate: false
+  xy: 169, 19
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-grey
+  rotate: false
+  xy: 180, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-pink
+  rotate: false
+  xy: 198, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-red
+  rotate: false
+  xy: 216, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-amulet-shot-yellow
+  rotate: false
+  xy: 234, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-aqua
+  rotate: false
+  xy: 252, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-blue
+  rotate: false
+  xy: 270, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-green
+  rotate: false
+  xy: 288, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-grey
+  rotate: false
+  xy: 306, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-pink
+  rotate: false
+  xy: 324, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-red
+  rotate: false
+  xy: 342, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-dish-shot-yellow
+  rotate: false
+  xy: 360, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-aqua
+  rotate: false
+  xy: 378, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-blue
+  rotate: false
+  xy: 396, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-green
+  rotate: false
+  xy: 414, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-grey
+  rotate: false
+  xy: 432, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-pink
+  rotate: false
+  xy: 450, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-red
+  rotate: false
+  xy: 468, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-rice-shot-yellow
+  rotate: false
+  xy: 486, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-aqua
+  rotate: false
+  xy: 504, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-blue
+  rotate: false
+  xy: 522, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-green
+  rotate: false
+  xy: 540, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-grey
+  rotate: false
+  xy: 558, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-pink
+  rotate: false
+  xy: 576, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-red
+  rotate: false
+  xy: 594, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+enemy-v-shot-yellow
+  rotate: false
+  xy: 612, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-bomb
+  rotate: false
+  xy: 630, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-dead-bullet
+  rotate: false
+  xy: 648, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-life
+  rotate: false
+  xy: 666, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-power-big
+  rotate: false
+  xy: 684, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-power-full
+  rotate: false
+  xy: 702, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-power-small
+  rotate: false
+  xy: 720, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-value-big
+  rotate: false
+  xy: 738, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+item-value-small
+  rotate: false
+  xy: 756, 15
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

@@ -36,8 +36,7 @@ public abstract class AbstractScreen implements Screen
 				this.gensokyogame = gensokyogame;
 				
 				int width = (isGameScreen() ? GAME_VIEWPORT_WIDTH:MENU_VIEWPORT_WIDTH);
-				int height = (isGameScreen() ? GAME_VIEWPORT_HEIGHT:MENU_VIEWPORT_HEIGHT);
-				
+				int height = (isGameScreen() ? GAME_VIEWPORT_HEIGHT:MENU_VIEWPORT_HEIGHT);				
 
 				this.stage = new Stage(width, height, true);
 		}
@@ -51,6 +50,7 @@ public abstract class AbstractScreen implements Screen
 		{
 			return false;
 		}
+		
 		/* ---		lazy loaded helper methods		--- */
 		public BitmapFont getFont()
 		{
@@ -122,8 +122,9 @@ public abstract class AbstractScreen implements Screen
 			}
 			return table;
 		}
-				
+								
 		/* ---		implement screens		--- */
+				
 		@Override
 		public void show()
 		{

@@ -15,11 +15,11 @@ public class GensokyoActivity extends AndroidApplication {
 			
 	AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		config.useGL20 = true;
-		config.useAccelerometer = false;
+		config.useAccelerometer = true;
 		config.useCompass = false;
 				
 		initialize(new GensokyoGame(), config);
 			
 	}
-
+	
 }

@@ -5,7 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 
 public class DefaultActorListener extends InputListener
-{
+{	
 	@Override
 	public boolean touchDown(
 			InputEvent event,

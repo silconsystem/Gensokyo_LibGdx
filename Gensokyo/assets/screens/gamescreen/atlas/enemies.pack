@@ -1,0 +1,173 @@
+
+enemies.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+big-green-fairy-0
+  rotate: false
+  xy: 1, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-4
+  rotate: false
+  xy: 1, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-1
+  rotate: false
+  xy: 67, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-2
+  rotate: false
+  xy: 133, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-3
+  rotate: false
+  xy: 199, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-0
+  rotate: false
+  xy: 265, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-1
+  rotate: false
+  xy: 331, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-2
+  rotate: false
+  xy: 397, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-3
+  rotate: false
+  xy: 463, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-4
+  rotate: false
+  xy: 529, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-5
+  rotate: false
+  xy: 595, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big-green-fairy-bank-6
+  rotate: false
+  xy: 661, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+blue-fairy-0
+  rotate: false
+  xy: 1, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-1
+  rotate: false
+  xy: 727, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-2
+  rotate: false
+  xy: 35, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-3
+  rotate: false
+  xy: 761, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-4
+  rotate: false
+  xy: 69, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-0
+  rotate: false
+  xy: 795, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-1
+  rotate: false
+  xy: 103, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-2
+  rotate: false
+  xy: 829, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-3
+  rotate: false
+  xy: 137, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-4
+  rotate: false
+  xy: 863, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-5
+  rotate: false
+  xy: 171, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-fairy-bank-6
+  rotate: false
+  xy: 897, 67
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

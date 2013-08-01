@@ -45,7 +45,7 @@ public class MenuScreen extends AbstractScreen
 						gensokyogame.setScreen(new StartGameScreen(gensokyogame));
 					}
 		});
-		table.add(startGameButton).size(300, 60).uniform().spaceBottom(10);
+		table.add(startGameButton).size(300, 40).uniform().spaceBottom(10);
 		table.row();
 		
 		// register the options button
@@ -69,7 +69,7 @@ public class MenuScreen extends AbstractScreen
 		table.row();
 		
 		// register the highscores button
-		TextButton highScoreButton = new TextButton("HighScores", getSkin());
+		TextButton highScoreButton = new TextButton("Exit/Scores", getSkin());
 		highScoreButton.addListener(new DefaultActorListener()
 		{
 			@Override
@@ -82,7 +82,7 @@ public class MenuScreen extends AbstractScreen
 					{
 						super.touchUp(event, x, y, pointer, button);
 						gensokyogame.getAudioFxManager().play(GensokyoEffects.OK);
-						gensokyogame.setScreen(new HighScores(gensokyogame));
+						gensokyogame.setScreen(new HighScoreScreen(gensokyogame));
 					}
 		});
 		table.add(highScoreButton).uniform().fill();

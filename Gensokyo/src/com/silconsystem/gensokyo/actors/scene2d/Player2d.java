@@ -25,9 +25,9 @@ import com.silconsystem.gensokyo.utils.VectorUtils;
 
 public class Player2d extends Image
 {
-	private static final float 	MAX_SPEED = 240;
-	private static final float	MAX_ACCELERATION = 10;
-	private static final float	MAX_DECELERATION = MAX_ACCELERATION / 2;
+	private static final float MAX_SPEED = 240;
+	private static final float MAX_ACCELERATION = 10;
+	private static final float MAX_DECELERATION = MAX_ACCELERATION / 2;
 	
 	private final Vector2 position;
 	private final Vector2 velocity;
@@ -38,7 +38,7 @@ public class Player2d extends Image
 	private float bankAnimationStateTime;
 	private Map<TextureRegion, Drawable> bankAnimationDrawables;
 	
-	private Player2d(PlayerCharacter playerCharacter, Array<AtlasRegion> girlAnimationFrames)
+	public Player2d(PlayerCharacter playerCharacter, Array<AtlasRegion> girlAnimationFrames)
 	{
 		// call the constructor
 		super(girlAnimationFrames.get(0));

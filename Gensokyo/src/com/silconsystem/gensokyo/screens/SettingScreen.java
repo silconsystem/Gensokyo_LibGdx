@@ -134,7 +134,7 @@ public class SettingScreen extends AbstractScreen
 					}
 		});
 		table.row();
-		table.add(backButton).size(250, 60).colspan(3);
+		table.add(backButton).size(250, 40).colspan(3);
 		
 	}
 	

@@ -19,6 +19,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Array;
 
 // import my game packs
+import com.silconsystem.gensokyo.actors.EnemyAttackType;
 import com.silconsystem.gensokyo.actors.EnemyType;
 
 public class Enemy2d extends Image
@@ -35,8 +36,9 @@ public class Enemy2d extends Image
 	
 	private float bankAnimationStateTime;
 	private Map<TextureRegion, Drawable> bankAnimationDrawables;
+	private EnemyType enemyType;
 	
-	private Enemy2d(EnemyType enemyType, Array<AtlasRegion> enemyAnimationFrames)
+	private Enemy2d(EnemyType enemyType, Array<AtlasRegion> enemyAnimationFrames )
 	{
 		super(enemyAnimationFrames.get(0));
 		

@@ -2,7 +2,8 @@ package com.silconsystem.gensokyo.screens;
 
 // import gdx packs
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.g2d.ParticleEffect;
+
+//import com.badlogic.gdx.graphics.g2d.ParticleEffect;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
@@ -25,8 +26,8 @@ public class LevelScreen extends AbstractScreen
 	
 	String mapname;
 	private ParallaxBackground2d parallaxBg;
-	private TextureAtlas atlas;
-	private ParticleEffect particle;
+	//private TextureAtlas atlas;
+	//private ParticleEffect particle;
 	
 	public LevelScreen(GensokyoGame gensokyogame, int targetLevelId)
 	{
@@ -74,6 +75,7 @@ public class LevelScreen extends AbstractScreen
 		stage.getRoot().getColor().a = 0f;
 		stage.getRoot().addAction(Actions.fadeIn(0.5f));
 	}
+	
 	
 	@Override
 	public void render(float delta)
