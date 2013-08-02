@@ -1,5 +1,12 @@
 package com.silconsystem.gensokyo.utils;
 
-public class InGamemenu {
+import android.view.View;
+
+public class InGamemenu extends InGamePopupWindow{
+
+	public InGamemenu(View anchor) {
+		super(anchor);
+		// TODO Auto-generated constructor stub
+	}
 
 }
