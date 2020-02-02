@@ -1,6 +1,6 @@
 This is my second Touhou project, I've chosen LibGdx as a  library and took the screen system from the tyrian tutorial by Gustavo Steigert.
-you can find the tyrian source here: http://steigert-libgdx-.googlecode.com
-the tutorial is found here: http://steigert.blogsport.com
+you can find the tyrian source here: https://code.google.com/archive/p/steigert-libgdx/source
+the tutorial is found here: http://steigert.blogspot.com/2012/02/2-libgdx-tutorial-game-screens.html
 Most of the sprites are from http://spriters-resource.com and will be credited in the 'credits' file.
 
 the concept of the game-to-be is this:
